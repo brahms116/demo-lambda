@@ -27,7 +27,7 @@ Resources:
             Path: "/"
             Method: POST
   DemoApi:
-    Type: AWS::Serverless::API
+    Type: AWS::Serverless::Api
     Properties:
       StageName: Prod
 
